@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-client-js",
+  "version": "1.0.0",
+  "description": "Layer that connects database and queue layer.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Ekratos",
+  "contributors": [
+    {
+      "name": "Victor Munoz",
+      "url": "https://github.com/victormunoz"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekratos-dev/ethereum-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekratos-dev/ethereum-client/issues"
+  },
+  "dependencies": {
+    "bluebird": "3.7.2",
+    "mongoose": "8.2.2",
+    "rabbot": "2.1.0",
+    "rabbus": "0.8.2",
+    "web3": "1.10.4"
+  }
+}
