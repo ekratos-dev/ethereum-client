@@ -111,7 +111,7 @@ function start(){
 
     }).catch(function (e) {
         console.error("ERROR");
-        console.error(e.message);
+        console.error(e);
         //process.exit();
     });
 }
@@ -212,7 +212,7 @@ function config(RabbitMQConfig_,network_,project_,DBConfig_,ActionThreads_,quiet
 }
 
 module.exports = {
-    start:start,
+    start: start,
     on: EventModule.on,
     emit: EventModule.emit,
     call: call,
